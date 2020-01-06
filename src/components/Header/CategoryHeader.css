@@ -1,0 +1,25 @@
+
+
+.category-content
+{
+    display: flex;
+    justify-content: center;
+    background-color:#ececec;
+    border-bottom: 1px solid #dedfe0;
+    height: 44px;
+    padding: 0;
+}
+.link-bar:hover{
+    background-color: #c4c2bb;
+    
+}
+.heading{
+    padding-top:7px
+}
+.link-bar {
+    display: block;
+    color: #686f7a;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 16px;
+}
