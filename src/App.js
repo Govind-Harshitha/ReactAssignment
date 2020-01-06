@@ -12,7 +12,7 @@ class App extends Component {
 		return (
 			<div>
 				<Router>
-					<MainHeader />
+					<MainHeader  categories={categories} />
 					<Route path="/" exact>
 					<CategoryHeader categories={categories} />
 						<Dashboard />
