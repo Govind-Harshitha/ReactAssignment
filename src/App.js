@@ -5,6 +5,7 @@ import Dashboard from './components/Dashboard';
 import AboutAuthor from './components/AboutAuthor/AboutAuthor';
 import CategoryHeader from './components/Header/CateogoryHeader';
 import categories from '../src/shared/categories';
+import RootHeader from './components/Header/RootHeader';
 
 
 class App extends Component {
@@ -12,11 +13,12 @@ class App extends Component {
 		return (
 			<div>
 				<Router>
-					<MainHeader  categories={categories} />
-					<Route path="/" exact>
-					<CategoryHeader categories={categories} />
+					{/* <MainHeader  categories={categories} /> */}
+					{/* <Route path="/" exact> */}
+					{/* <CategoryHeader categories={categories} /> */}
+					<RootHeader/>
 						<Dashboard />
-					</Route>
+					{/* </Route> */}
 					<Route path="/aboutauthor" exact component={AboutAuthor} />
 				</Router>
 			</div>

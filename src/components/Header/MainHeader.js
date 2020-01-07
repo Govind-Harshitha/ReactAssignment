@@ -61,25 +61,23 @@ class MainHeader extends Component {
                             <Link className="inner-content-style">My Courses </Link>
                         </div>
 
-                        {/* <div className="cart">
-                        <div className="cart-font">
-                            <FontAwesome.FaHeartO className="font" />
+                        <div className="navbar-icon">
+                            <FontAwesome.FaHeartO className="icon-size" />
+                          
                             </div>
-                            </div> */}
                         <div className="navbar-icon">
                             <FontAwesome.FaShoppingCart className="icon-size" />
                         </div>
-                        {/* <div className="cart">
-                            <div className="cart-font">
-                            <FontAwesome.FaBell className="font" />
-                            </div>
-                        </div> */}
-                        <div className="login-text">
+                        <div className="navbar-icon">
+                            <FontAwesome.FaBell className="icon-size" />
+                            
+                        </div>
+                        {/* <div className="login-text">
                             <button type="button" class="button-css login-button">Log In</button>
                         </div>
                         <div className="signup-text">
                             <button type="button" class="button-css signup-button">Sign Up</button>
-                        </div>
+                        </div> */}
                     </div>
 
                 </div>

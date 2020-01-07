@@ -56,7 +56,7 @@
     background-color: #ececec;
 }
 .search-button{
-    color: #ec5252 !important;
+    /* color: #ec5252 !important; */
     background-color:#ececec;
     border: none;
     height:62px;
